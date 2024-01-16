@@ -1,0 +1,79 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "breadcrumbs.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "never"
+    },
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.fontFamily": "Dank Mono",
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.lineHeight": 32,
+    "editor.letterSpacing": 0.5,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "normal",
+    "editor.cursorWidth": 5,
+    "editor.lineNumbers": "relative",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.smoothScrolling": true,
+    "editor.suggest.insertMode": "replace",
+    "errorLens.enabled": true,
+    "errorLens.enabledDiagnosticLevels": ["warning", "info", "hint", "error"],
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "github.copilot.enable": {
+        "*": true,
+        "markdown": true,
+        "plaintext": true,
+        "scminput": false
+    },
+    "prettier.documentSelectors": ["**/*.astro"],
+    "settingsSync.ignoredExtensions": ["antfu.unocss"],
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Serendipity Sunset",
+    "workbench.editor.showTabs": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "icons-carbon",
+    "workbench.settings.editor": "ui",
+    "zenMode.hideLineNumbers": false,
+    "rapidapi.terminalLink.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.editor.wrapTabs": true,
+    "explorer.compactFolders": false,
+    "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[postcss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "zenMode.showTabs": "none",
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4
+}
