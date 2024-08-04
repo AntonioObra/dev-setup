@@ -1,0 +1,29 @@
+{
+    "recommendations": [
+        // * Theme
+        "Catppuccin.catppuccin-vsc",
+        "Catppuccin.catppuccin-vsc-icons",
+
+        // * Basic
+        "formulahendry.auto-rename-tag",
+        "EditorConfig.EditorConfig",
+        "Zignd.html-css-class-completion",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "aaron-bond.better-comments",
+        "WakaTime.vscode-wakatime",
+
+        // * PHP
+        "DEVSENSE.composer-php-vscode",
+        "DEVSENSE.intelli-php-vscode",
+        "DEVSENSE.phptools-vscode",
+        "DEVSENSE.profiler-php-vscode",
+
+        // * Laravel
+        "shufo.vscode-blade-formatter",
+        "onecentlin.laravel-blade",
+        "amiralizadeh9480.laravel-extra-intellisense",
+        "codingyu.laravel-goto-view",
+        "naoray.laravel-goto-components"
+    ]
+}
