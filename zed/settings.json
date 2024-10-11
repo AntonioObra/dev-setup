@@ -1,5 +1,3 @@
-// ! This setup is still uncomplete as Zed is evolving, this is a Zed setup for linux
-
 // Zed settings
 //
 // For information on how to configure Zed, see the Zed
@@ -9,20 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  // * Visuals
+  "base_keymap": "VSCode",
   "ui_font_size": 16,
-  "ui_font_weight": 500,
-  "ui_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_size": 18,
   "buffer_line_height": "comfortable",
-  "buffer_font_weight": 500,
-  "buffer_font_family": "JetBrainsMono Nerd Font",
   "theme": {
     "mode": "system",
-    "light": "One Light",
-    "dark": "Catppuccin Mocha (Blur)"
+    "light": "Catppuccin Mocha (Blur)",
+    "dark": "Catppuccin Espresso (Blur)"
   },
-  "base_keymap": "VSCode",
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_weight": 500,
+  "buffer_font_weight": 500,
   "relative_line_numbers": true,
   "tab_bar": {
     "show": true
@@ -31,5 +28,9 @@
   "centered_layout": {
     "left_padding": 0.15,
     "right_padding": 0.15
-  }
+  },
+  "soft_wrap": "editor_width",
+  "auto_fold_dirs": false,
+  "cursor_shape": "block",
+  "file_scan_exclusions": ["/app/"]
 }
