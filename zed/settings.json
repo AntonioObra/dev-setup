@@ -14,7 +14,7 @@
   "theme": {
     "mode": "system",
     "light": "Catppuccin Mocha (Blur)",
-    "dark": "Catppuccin Espresso (Blur)"
+    "dark": "Catppuccin Mocha (Blur)"
   },
   "ui_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_family": "JetBrainsMono Nerd Font",
@@ -31,6 +31,28 @@
   },
   "soft_wrap": "editor_width",
   "auto_fold_dirs": false,
-  "cursor_shape": "block",
-  "file_scan_exclusions": ["/app/"]
+  "cursor_shape": "bar",
+  "file_scan_exclusions": ["/app/"],
+
+  // *
+  // * Theme override to be little less transparent
+  // *
+
+  // * Catpuccin mocha background
+  // "experimental.theme_overrides": {
+  //   "background": "#1e1e2ef3",
+  //   "elevated_surface.background": "#181825",
+  //   "surface.background": "#1e1e2ed0",
+  //   "status_bar.background": "#1e1e2ef3",
+  //   "title_bar.background": "#1e1e2ef3"
+  // }
+
+  // * Black background
+  "experimental.theme_overrides": {
+    "background": "#000000e0",
+    "elevated_surface.background": "#181825",
+    "surface.background": "#000000e0",
+    "status_bar.background": "#000000e0",
+    "title_bar.background": "#000000e0"
+  }
 }
