@@ -24,7 +24,7 @@ For themes I added customization:
 ### Catpuccin Espresso (blur)
 ```json
 "experimental.theme_overrides": {
-  // * Catpuccin Mocha (blur)
+  // * Catpuccin Espresso (blur)
   "background": "#000000e0",
   "elevated_surface.background": "#181825",
   "surface.background": "#000000e0",
