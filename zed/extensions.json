@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    // * Theme
+    "Catppuccin Themes",
+    "Catppuccin Blur",
+
+    // * Basic
+    "HTML",
+    "Dockerfile",
+    "Docker Compose",
+    "TOML",
+    "Git Firefly",
+    "SQL",
+
+    // * PHP
+    "PHP"
+  ]
+}
