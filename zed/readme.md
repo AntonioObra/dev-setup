@@ -19,7 +19,7 @@ For themes I added customization:
 }
 ```
 
-![Catpuccin Mocha (blur)](./images/zed-mocha-blur.png)
+![Catpuccin Mocha (blur)](../images/zed-mocha-blur.png)
 
 ### Catpuccin Espresso (blur)
 ```json
@@ -32,4 +32,4 @@ For themes I added customization:
   "title_bar.background": "#000000e0"
 }
 ```
-![Catpuccin Espresso (blur)](./images/zed-espresso.png)
+![Catpuccin Espresso (blur)](../images/zed-espresso.png)
