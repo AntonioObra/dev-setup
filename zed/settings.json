@@ -7,14 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "vim_mode": false,
   "base_keymap": "VSCode",
   "ui_font_size": 16,
   "buffer_font_size": 18,
-  "buffer_line_height": "comfortable",
+  "buffer_line_height": { "custom": 2 },
   "theme": {
     "mode": "system",
     "light": "Catppuccin Mocha (Blur)",
-    "dark": "Catppuccin Mocha (Blur)"
+    "dark": "Catppuccin Espresso (Blur)"
   },
   "ui_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_family": "JetBrainsMono Nerd Font",
@@ -37,18 +38,15 @@
   // *
   // * Theme override to be little less transparent
   // *
-
-  // * Catpuccin mocha background
-  // "experimental.theme_overrides": {
-  //   "background": "#1e1e2ef3",
-  //   "elevated_surface.background": "#181825",
-  //   "surface.background": "#1e1e2ed0",
-  //   "status_bar.background": "#1e1e2ef3",
-  //   "title_bar.background": "#1e1e2ef3"
-  // }
-
-  // * Black background
   "experimental.theme_overrides": {
+    // * Catpuccin mocha (blur)
+    // "background": "#1e1e2ef3",
+    // "elevated_surface.background": "#181825",
+    // "surface.background": "#1e1e2ed0",
+    // "status_bar.background": "#1e1e2ef3",
+    // "title_bar.background": "#1e1e2ef3"
+
+    // * Catpuccin espresso (blur)
     "background": "#000000e0",
     "elevated_surface.background": "#181825",
     "surface.background": "#000000e0",

@@ -4,7 +4,7 @@ This are my configuration files to make my editors beautifull to work with.
 
 ## Zed setup
 
-![zed setup](./images/zed-setup2.png)
+![zed setup](./images/zed-espresso.png)
 
 ## VSCode setup
 
