@@ -15,7 +15,7 @@
   "theme": {
     "mode": "system",
     "light": "Catppuccin Mocha (Blur)",
-    "dark": "Catppuccin Espresso (Blur)"
+    "dark": "Catppuccin Mocha"
   },
   "ui_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_family": "JetBrainsMono Nerd Font",
@@ -39,7 +39,16 @@
   // * Theme override to be little less transparent
   // *
   "experimental.theme_overrides": {
-    // * Catpuccin mocha (blur)
+    // * Catpuccin Mocha
+    "background": "#1e1e2ef3",
+    "elevated_surface.background": "#181825",
+    "surface.background": "#1e1e2ed0",
+    "status_bar.background": "#1e1e2ef3",
+    "title_bar.background": "#1e1e2ef3",
+    "editor.background": "#1e1e2e11",
+    "editor.gutter.background": "#1e1e2e11"
+
+    // * Catpuccin Mocha (blur)
     // "background": "#1e1e2ef3",
     // "elevated_surface.background": "#181825",
     // "surface.background": "#1e1e2ed0",
@@ -47,10 +56,10 @@
     // "title_bar.background": "#1e1e2ef3"
 
     // * Catpuccin espresso (blur)
-    "background": "#000000e0",
-    "elevated_surface.background": "#181825",
-    "surface.background": "#000000e0",
-    "status_bar.background": "#000000e0",
-    "title_bar.background": "#000000e0"
+    // "background": "#000000e0",
+    // "elevated_surface.background": "#181825",
+    // "surface.background": "#000000e0",
+    // "status_bar.background": "#000000e0",
+    // "title_bar.background": "#000000e0"
   }
 }
